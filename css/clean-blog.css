@@ -65,6 +65,7 @@ a img:focus {
 blockquote {
   color: #808080;
   font-style: italic;
+  border-left: 5px solid #6DB68E;
 }
 hr.small {
   max-width: 100px;
