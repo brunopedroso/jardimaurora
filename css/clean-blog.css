@@ -1,3 +1,19 @@
+.foto-fundo {
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.fundo_cinza {
+  background-color: #D4ECDF;
+}
+
+
+
 /*!
  * Clean Blog v1.0.0 (http://startbootstrap.com)
  * Copyright 2014 Start Bootstrap
@@ -150,7 +166,6 @@ hr.small {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
