@@ -1,0 +1,83 @@
+.foto-fundo {
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.fundo_cinza {
+  background-color: #D4ECDF;
+  background: url('../img/symphony.png');
+}
+
+.intro-header {
+  background-image: url('../img/home-bg.jpg'); 
+  background-position: bottom;
+  background-size: 613px auto;
+  height: 360px;
+}
+
+@media(min-width:614px){
+  .intro-header {
+    background-size: 100%;
+  }
+}
+
+@media(min-width:930px){
+  .intro-header {
+    background-position: 0 -100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro-header {
+    background-position: 0 -110px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro-header {
+    background-position: 0 -140px;
+  }
+}
+
+
+.site-heading {
+  height: 360px;
+}
+
+.intro-header .site-heading .subheading, .intro-header .page-heading .subheading {
+  font-size: 20px;
+}
+
+.faixa_escura {
+  background:black; 
+  opacity:0.6; 
+  height: 360px;
+  position:absolute;
+  width: 315px;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {  
+  .faixa_escura {
+    width: 315px;
+    margin-left: 0;
+  }
+}
+@media (min-width: 992px) {
+  .faixa_escura {
+    width: 400px;
+    margin-left: 5%;
+  }
+}
+@media (min-width: 1200px) {
+  .faixa_escura {
+    width: 400px;
+    margin-left: 7.5%;
+  }
+}
+
