@@ -9,14 +9,10 @@ img.foto {
 }
 
 
-.foto-fundo {
-  background-color: #808080;
-  background: no-repeat center center;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+.aqua3 {
+  background-image: url('../img/aquarela3.jpg');
+  background-size:90%;
+  background-repeat: no-repeat;
 }
 
 .fundo_textura {
