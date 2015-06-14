@@ -12,7 +12,7 @@ img.foto {
 .aqua3 {
   background-image: url('../img/aquarela3.jpg');
   background-size:100%;
-  background-position: bottom;
+  background-position: 0 100px;
   background-repeat: no-repeat;
 }
 
