@@ -18,6 +18,10 @@ img.foto {
   bottom:0;
 }
 
+.link_selo {
+  cursor:pointer;
+}
+
 #map-canvas {
   border-radius: 10px;
   border: 4px solid #38E3EA;
