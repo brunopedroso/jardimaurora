@@ -12,7 +12,7 @@ img.foto {
 .aqua3 {
   background-image: url('../img/aquarela3.jpg');
   background-size:100%;
-  background-position: 0 100px;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
@@ -28,56 +28,64 @@ img.foto {
 }
 
 .intro-header .site-heading {
-  padding-top: 167px;
+  padding-top: 260px;
 }
 
 .intro-header .site-heading .subheading {
-  font-size:18px;
+  font-size:14px;
+  font-weight:400;
 }
 
-.faixa_escura {
-  background:black; 
-  opacity:0.4;
-  width: 100%;
-  height: 150px;
-  bottom: 10%;
-  position: absolute;
-}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .aqua3 {
-    background-position: 0 50px;
-  }
 
+  .navbar {
+    background: rgba(0,0,0,0.5)
+  }
+  
   .intro-header {
     background-size: 100%;
-    background-position: 0;
-    height: 380px;
+    height: 360px;
   }
   .intro-header .site-heading {
-    padding-top: 220px;
+    padding-top: 260px;
   }
   .intro-header .site-heading .subheading {
-    font-size:24px;
+    font-size:18px;
   }
   
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  
   .intro-header {
     height: 480px;
   }
+  
   .intro-header .site-heading {
-    padding-top: 310px;
+    padding-top: 340px;
+  }
+  
+  .intro-header .site-heading .subheading {
+    font-size:20px;
   }
   
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  background-position: 0 -130px;
+  
+  .intro-header {
+    height: 580px;
+  }
+  
+  .intro-header .site-heading {
+    padding-top: 420px;
+  }
+  
+  
 }
 
 
