@@ -12,10 +12,10 @@ img.foto {
 }
 
 .selo_2 {
-  width:100px;
+  width:80px;
   position: absolute;
   left: 60%;
-  bottom:0;
+  bottom:20px;
 }
 
 .link_selo {
@@ -102,7 +102,7 @@ img.foto {
   }
 
   .selo_2 {
-    width:160px
+    width:140px
   }
   
   
