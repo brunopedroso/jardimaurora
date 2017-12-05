@@ -1,0 +1,152 @@
+img.foto {
+  border-radius: 10px;
+  border: 4px solid #38E3EA;
+}
+
+.selo {
+  position:absolute;
+  right:20px;
+  bottom:-90px;
+  width:100px;
+  z-index:20;
+}
+
+.selo_2 {
+  width:80px;
+  position: absolute;
+  left: 70%;
+  bottom:40px;
+}
+
+.link_selo {
+  cursor:pointer;
+}
+
+#map-canvas {
+  border-radius: 10px;
+  border: 4px solid #38E3EA;
+}
+
+
+.aqua3 {
+  background-image: url('../img/aquarela3.jpg');
+  background-size:100%;
+  background-position: 0 100px;
+  background-repeat: no-repeat;
+}
+
+.fundo_textura {
+  background-color: #D4ECDF;
+  background: url('../img/symphony.png');
+}
+
+.intro-header {
+  background-image: url('../img/home-bg.jpg'); 
+  background-position: bottom;
+  height: 340px;
+}
+
+.intro-header .site-heading {
+  padding-top: 230px;
+}
+
+.intro-header .site-heading .subheading {
+  font-size:13px;
+  font-weight:400;
+}
+
+
+@media (min-width: 550px) {
+  
+  .selo_2 {
+    width:130px;
+  }
+  
+  
+}
+
+@media (min-width: 650px) {
+  
+  .selo {
+    width:130px
+  }
+  
+  .selo_2 {
+    left: 50%;
+  }
+  
+  
+    
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .navbar {
+    background: rgba(0,0,0,0.5)
+  }
+  
+  .intro-header {
+    background-size: 100%;
+    height: 360px;
+  }
+  .intro-header .site-heading {
+    padding-top: 260px;
+  }
+  .intro-header .site-heading .subheading {
+    font-size:18px;
+  }
+  
+  .selo {
+    width:150px
+  }
+
+  .selo_2 {
+    width:140px
+  }
+  
+  
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+  .intro-header {
+    height: 480px;
+  }
+  
+  .intro-header .site-heading {
+    padding-top: 340px;
+  }
+  
+  .intro-header .site-heading .subheading {
+    font-size:20px;
+  }
+  
+  .selo {
+    right: 100px;
+  }
+  
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+  .intro-header {
+    height: 580px;
+  }
+  
+  .intro-header .site-heading {
+    padding-top: 420px;
+  }
+  
+  .selo {
+    width:200px;
+  }
+  
+}
+
+
+
+
+
